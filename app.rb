@@ -3,6 +3,7 @@ require 'pry'
 class App < Sinatra::Base
 
   post '/team' do
+<<<<<<< HEAD
     @name = params[:name]
     @coach = params[:coach]
     @pg = params[:pg]
@@ -11,6 +12,8 @@ class App < Sinatra::Base
     @pf = params[:pf]
     @c = params[:c]
 
+=======
+>>>>>>> 6cc651e3b7515b2eed7ed2057e3dbad202e9bba2
     erb :team
   end
 
